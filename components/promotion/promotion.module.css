@@ -1,0 +1,16 @@
+
+.promotion {
+    width: 860px;
+    height: 384px;
+    background-color: #8BDE7C;
+    display: flex;
+}
+
+.info {
+    flex: 1;
+    margin: 82px 104px;
+}
+
+.board {
+    text-transform: uppercase;
+}

@@ -14,3 +14,14 @@ a {
 * {
   box-sizing: border-box;
 }
+
+h2{
+  color: #021322;
+}
+
+button {
+  color: white;
+  background: #318722;
+  border-radius: 8px;
+  padding: 12px 16px;
+}
