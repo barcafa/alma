@@ -9,9 +9,7 @@ const HomePage: NextPage = () => {
       <Head>
         <title>Alma</title>
       </Head>
-      <Layout>
-        <Promotion />
-      </Layout>
+        <Promotion />      
     </div>
   )
 }

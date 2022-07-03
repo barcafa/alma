@@ -5,9 +5,9 @@ import classes from './header.module.css'
 const Header = () => {
     return (
         <header className={classes.header}>
-            <Link href='/'>
-                Alma
-            </Link>
+            <div className={classes.logo}>
+                <Link href='/'>Alma</Link>
+            </div>     
             <nav>
                 <ul>
                     <li>
