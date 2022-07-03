@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Layout from '../components/layout/layout'
 import Promotion from '../components/promotion/promotion'
 
 const HomePage: NextPage = () => {
@@ -8,8 +9,9 @@ const HomePage: NextPage = () => {
       <Head>
         <title>Alma</title>
       </Head>
-      <h1>Home Page</h1>
-      <Promotion />
+      <Layout>
+        <Promotion />
+      </Layout>
     </div>
   )
 }

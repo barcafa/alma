@@ -4,6 +4,7 @@
     height: 384px;
     background-color: #8BDE7C;
     display: flex;
+    margin: auto;
 }
 
 .info {
